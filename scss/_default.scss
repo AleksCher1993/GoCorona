@@ -1,0 +1,89 @@
+// --------------------------------------------------
+// ----------------------------------------
+// ------------------------------
+// Обнуление HTML
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+color: #FFFFFF;
+font-size: 62.5%;
+font-weight: normal;
+// font-size: 16px;
+// height: 100%;
+// line-height: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+    // vertical-align: top;
+
+}
+button,input{
+    outline: none;
+    border: none;   
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    // font-weight: inherit;
+    // font-size: inherit;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+// Конец обнуления HTML
+// ------------------------------
+// ----------------------------------------
+// --------------------------------------------------
+// --------------------------------------------------
+// ----------------------------------------
+// ------------------------------
+// Дополнительные параметры
+body._lock{
+    overflow: hidden;
+}
+
+._container{
+    max-width: 101rem;
+    margin: 0 auto;
+}
+
+
+// .wrapper{
+//     width: 100%;
+//     min-height: 100%;
+//     overflow: hidden;
+//     display: flex;
+//     flex-direction: column;
+    
+// }
+
+// .page{
+//     padding: 90px 0px 0px 0px;
+//     flex: 1 1 auto;
+// }
+// Конец дополнительные параметры
+// ------------------------------
+// ----------------------------------------
+// --------------------------------------------------

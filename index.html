@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/app.js" defer></script>
+    <title>GoCorona</title>
+  </head>
+  <body>
+    <!-- 111111111111111111111111111111111111 -->
+    <!-- для одностраничников плавный переход -->
+    <!-- data-goto=".page__section_1 атрибут обязателен для ссылок. Для секций куда нужно плавно скролить установить класс page__section_1 -->
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__menu menu">
+          <a class="header__logo" href="##">
+            <img src="img/svg/logoo.svg" alt="GoCorona" />
+          </a>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a data-goto=".page__section_1" href="##">HOME</a>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".section_features" href="#">FEATURES</a>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".page__section_3" href="##">SUPPORT</a>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".page__section_3" href="##">CONTACT US</a>
+              </li>
+            </ul>
+            <button class="header__button button">DOWNLOAD</button>
+          </nav>
+          <button type="button" class="icon-menu"><span></span></button>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="section__health health">
+        <div class="health__block _container">
+          <div class="section__wrapper">
+            <div class="health__section">
+              <div class="health__description">
+                <h2 class="health__title title">
+                  Take care of yours family’s <span>health.</span>
+                </h2>
+                <div class="header__subtitle subtitle">
+                  All in one destination for COVID-19 health queries. Consult
+                  10,000+ health workers about your concerns.
+                </div>
+                <button class="health__button button">GET STARTED</button>
+              </div>
+              <div class="health__media media">
+                <div class="media__img">
+                  <img src="img/playVideo.png" alt="playVideo" srcset="" />
+                </div>
+                <div class="media__description">
+                  <div class="media__staysafe">Stay safe with GoCorona</div>
+                  <div class="media__watchvideo">Watch Video</div>
+                </div>
+              </div>
+            </div>
+            <div class="health__back">
+              <img src="img/back.png" alt="back" srcset="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__features features">
+        <div class="_container">
+          <div class="features__wrapper">
+            <div class="features__img">
+              <div class="back__block"></div>
+              <img src="img/mobileImg.png" alt="mobile" />
+            </div>
+            <div class="features__description">
+              <h2 class="features__title title">
+                Stay safe with Go<span>Corona.</span>
+              </h2>
+              <div class="features__subtitle subtitle">
+                24x7 Support and user friendly mobile platform to bring
+                healthcare to your fingertips. Signup and be a part of the new
+                health culture.
+              </div>
+              <button class="features__button button">Features</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__section _container">
+        <div class="footer__market">
+          <a class="footer__img" href="##">
+            <img src="img/googlePlay.png" alt="" srcset="" />
+          </a>
+          <a class="footer__img" href="##">
+            <img src="img/appStore.png" alt="" srcset="" />
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
