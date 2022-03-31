@@ -137,13 +137,12 @@ body._lock {
 }
 
 .header {
-  border: 1px solid black;
+  width: 100%;
 }
 
 .header__wrapper {
   max-width: 115rem;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .header__menu {
@@ -315,10 +314,6 @@ body._lock {
   .icon-menu {
     margin-right: 2rem;
   }
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .section__health {
@@ -712,4 +707,11 @@ body {
   .footer__img:last-child img {
     width: 106%;
   }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
 }
