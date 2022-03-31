@@ -8,7 +8,7 @@
         width: 30px;
         height: 18px;
         cursor: pointer;
-        z-index: 5;
+        z-index: 100;
         span,
         &::before,
         &::after{
@@ -58,7 +58,7 @@
         padding: 130px 30px 30px 30px;
         transition: left 0.3s ease 0s;
         overflow: auto;
-z-index: 3;
+z-index: 9;
 
     }
    
@@ -70,7 +70,7 @@ top: 0;
 left: 0;
 height: 70px;
 background-color: white;
-z-index: 5;
+z-index: 8;
     }
     .menu__body.menu__open{
         left: 0;
