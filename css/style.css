@@ -715,3 +715,7 @@ html, body {
   overflow: hidden;
   overflow-y: auto;
 }
+
+.features__img {
+  z-index: -1;
+}
