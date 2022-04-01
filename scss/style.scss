@@ -1,9 +1,14 @@
 @import "_default";
 @import "_burger";
+main{
+position: relative;
+z-index: 3
+}
 @import "header";
 @import "sectionHealth";
 @import "sectionFeatures";
 @import "sectionExpert";
+@import "sectionHealthCare";
 
 @import "footer";
 html, body{
@@ -15,5 +20,4 @@ html, body{
 
 .features__img{
     z-index: -1;
-
 }

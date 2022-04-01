@@ -63,6 +63,7 @@ export const _menu = () => {
           gotoBlock.getBoundingClientRect().top +
           pageYOffset -
           document.querySelector("header").offsetHeight; //высщта контейнера навигации
+        console.log(gotoBlockValue);
 
         if (iconMenu.classList.contains("menu__open")) {
           document.body.classList.remove("_lock");

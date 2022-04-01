@@ -1,5 +1,7 @@
 .header {
   width: 100%;
+  position: relative;
+  z-index: 100;
 }
 
 .header__wrapper {

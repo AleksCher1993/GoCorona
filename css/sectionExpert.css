@@ -2,7 +2,7 @@
   background: #fbfcfe;
   margin-top: 180px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 @media (max-width: 689.98px) {
